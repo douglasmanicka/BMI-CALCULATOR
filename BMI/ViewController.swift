@@ -10,11 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var textFieldWeight: UITextField!
+    @IBOutlet weak var textFieldHeigth: UITextField!
+    @IBOutlet weak var labelResult: UILabel!
+    @IBOutlet weak var imageViewResult: UIImageView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
+    @IBAction func calculate(_ sender: Any) {
+    }
+    
 
 }
 
