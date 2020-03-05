@@ -15,16 +15,21 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="duz-UL-Ad4">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="duz-UL-Ad4">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.29411764705882354" green="0.70980392156862748" blue="0.76470588235294112" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.28235294117647058" green="0.68235294117647061" blue="0.80784313725490198" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="duz-UL-Ad4" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="VZc-m9-9Zp"/>
+                            <constraint firstItem="duz-UL-Ad4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="YbJ-HO-GwC"/>
+                            <constraint firstItem="duz-UL-Ad4" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="mKa-Ca-3BH"/>
+                            <constraint firstItem="duz-UL-Ad4" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="wJy-ps-XLo"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
